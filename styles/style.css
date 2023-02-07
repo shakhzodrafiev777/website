@@ -1,0 +1,880 @@
+@font-face {
+  font-family: "museosanscyrl-100";
+  src: url(./fonts/museosanscyrl-100.ttf);
+}
+@font-face {
+  font-family: "museosanscyrl-300";
+  src: url(fonts/museosanscyrl-300.ttf);
+}
+@font-face {
+  font-family: "museosanscyrl-500";
+  src: url(fonts/museosanscyrl-500.ttf);
+}
+@font-face {
+  font-family: "museosanscyrl-700";
+  src: url(fonts/museosanscyrl-700.ttf);
+}
+@font-face {
+  font-family: "museosanscyrl-900";
+  src: url(fonts/museosanscyrl-900.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(28, 39, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__container {
+  width: 96%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__logo {
+  width: 90px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navlinks {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  color: white;
+  font-size: 15px;
+  font-family: "museosanscyrl-700";
+}
+
+.container__languages {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container_languages__item {
+  font-family: "museosanscyrl-300";
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  height: 1350px;
+  background-image: url(./img/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__container {
+  width: 90%;
+  height: 96%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main_container__item1 {
+  width: 100%;
+  height: 28%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item1__navlinks {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.item1_navlinks__links {
+  font-family: "museosanscyrl-100";
+  font-size: 22px;
+}
+
+.video {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container__item2 {
+  width: 100%;
+  height: 28%;
+  background-color: rgba(217, 217, 217, 0.5);
+}
+
+.main_container__item3 {
+  width: 100%;
+  height: 28%;
+  background-color: rgba(217, 217, 217, 0.5);
+}
+
+.font {
+  font-size: 30px;
+  font-family: "museosanscyrl-500";
+  padding-left: 35px;
+  padding-top: 35px;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(28, 39, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__container {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__item1 {
+  width: 27%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer_item1__1 {
+  width: 100%;
+  height: 25%;
+  display: flex;
+}
+
+.item1_1__shrift {
+  width: 180px;
+  height: 100%;
+}
+
+.sh__1 {
+  color: white;
+  font-size: 14px;
+  font-family: "museosanscyrl-300";
+  padding-left: 15px;
+  padding-top: 8px;
+}
+
+.footer_item1__2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item1_2__circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgb(44, 55, 101);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_item1__3 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+
+.item1_3__circle {
+  border-radius: 100%;
+  background-color: white;
+  width: 13px;
+  height: 13px;
+}
+
+.item1_3__shrift {
+  color: white;
+  font-size: 13px;
+  font-family: "museosanscyrl-100";
+  padding-left: 10px;
+}
+
+.footer__item2 {
+  width: 24%;
+  height: 100%;
+}
+
+.footer_item2__1 {
+  width: 100%;
+  height: 60px;
+  font-size: 22px;
+  color: white;
+  font-family: "museosanscyrl-300";
+  display: flex;
+  align-items: center;
+}
+
+.item2__2and3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+  margin-top: 35px;
+}
+
+.footer_item2__2 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer_item2__3 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.item2_2__shrift {
+  font-size: 14px;
+  color: white;
+  font-family: "museosanscyrl-300";
+}
+
+.footer__item3 {
+  width: 27%;
+  height: 75%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer_item3__1 {
+  width: 100%;
+  height: 27%;
+  display: flex;
+  align-items: center;
+}
+
+.item3_1__img {
+  width: 74px;
+  height: 64px;
+  background-color: rgb(249, 180, 78);
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item3_1__shrift {
+  margin-left: 20px;
+  width: 50%;
+  height: 100%;
+}
+
+.item3_shrift {
+  color: white;
+  padding-top: 8px;
+  font-family: "museosanscyrl-100";
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .navlinks {
+    width: 62%;
+  }
+  .links {
+    font-size: 15px;
+    font-family: "museosanscyrl-700";
+  }
+  .container_languages__item {
+    font-size: 15px;
+  }
+  .item1_navlinks__links {
+    font-size: 20px;
+  }
+  .video1 {
+    width: 620px;
+    height: 349px;
+  }
+  .font {
+    font-size: 29px;
+  }
+  .hero {
+    height: 1300px;
+  }
+  .sh__1 {
+    font-size: 14px;
+  }
+  .item1_2__circle {
+    width: 55px;
+    height: 55px;
+  }
+  .item2_2__shrift {
+    font-size: 14px;
+  }
+  .item3_1__img {
+    width: 70px;
+    height: 60px;
+  }
+  .item3_shrift {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .navlinks {
+    width: 62%;
+  }
+  .links {
+    font-size: 15px;
+    font-family: "museosanscyrl-700";
+  }
+  .container_languages__item {
+    font-size: 15px;
+  }
+  .item1_navlinks__links {
+    font-size: 18px;
+  }
+  .video1 {
+    width: 620px;
+    height: 349px;
+  }
+  .font {
+    font-size: 27px;
+  }
+  .hero {
+    height: 1300px;
+  }
+  .sh__1 {
+    font-size: 14px;
+  }
+  .item1_2__circle {
+    width: 55px;
+    height: 55px;
+  }
+  .item2_2__shrift {
+    font-size: 14px;
+  }
+  .item3_1__img {
+    width: 70px;
+    height: 60px;
+  }
+  .item3_shrift {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .navlinks {
+    width: 65%;
+  }
+  .links {
+    font-size: 14px;
+    font-family: "museosanscyrl-500";
+  }
+  .container_languages__item {
+    font-size: 14px;
+  }
+  .item1_navlinks__links {
+    font-size: 17px;
+  }
+  .video1 {
+    width: 550px;
+    height: 100%;
+  }
+  .font {
+    font-size: 25px;
+  }
+  .hero {
+    height: 1200px;
+  }
+  .sh__1 {
+    font-size: 14px;
+  }
+  .item1_2__circle {
+    width: 55px;
+    height: 55px;
+  }
+  .item2_2__shrift {
+    font-size: 14px;
+  }
+  .item3_1__img {
+    width: 66px;
+    height: 56px;
+  }
+  .item3_shrift {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .navlinks {
+    width: 70%;
+  }
+  .links {
+    font-size: 12px;
+    font-family: "museosanscyrl-500";
+  }
+  .container_languages__item {
+    font-size: 12px;
+  }
+  .item1_navlinks__links {
+    font-size: 16px;
+  }
+  .video1 {
+    width: 480px;
+    height: 100%;
+  }
+  .font {
+    font-size: 25px;
+  }
+  .hero {
+    height: 1000px;
+  }
+  .footer {
+    height: 450px;
+  }
+  .sh__1 {
+    font-size: 12px;
+  }
+  .item1_2__circle {
+    width: 40px;
+    height: 40px;
+  }
+  .item2_2__shrift {
+    font-size: 12px;
+  }
+  .item3_1__img {
+    width: 64px;
+    height: 54px;
+  }
+  .item3_shrift {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navlinks {
+    width: 70%;
+  }
+  .links {
+    font-size: 10px;
+    font-family: "museosanscyrl-300";
+  }
+  .container_languages__item {
+    font-size: 10px;
+  }
+  .video1 {
+    width: 370px;
+    height: 100%;
+  }
+  .font {
+    font-size: 25px;
+  }
+  .hero {
+    height: 870px;
+  }
+  .footer {
+    height: 400px;
+  }
+  .logo2 {
+    width: 73px;
+    height: 44px;
+  }
+  .sh__1 {
+    font-size: 10px;
+  }
+  .item1_2__circle {
+    width: 40px;
+    height: 40px;
+  }
+  .item1_3__circle {
+    width: 10px;
+    height: 10px;
+  }
+  .item1_3__shrift {
+    font-size: 10px;
+  }
+  .footer_item2__1 {
+    font-size: 19px;
+  }
+  .item2_2__shrift {
+    font-size: 10px;
+  }
+  .item3_1__img {
+    width: 54px;
+    height: 44px;
+  }
+  .item3_shrift {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navlinks {
+    display: none;
+  }
+  .container__languages {
+    display: none;
+  }
+  .header__container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .burger {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .burger__line {
+    background-color: white;
+    width: 100%;
+    height: 3px;
+  }
+  .video1 {
+    width: 370px;
+    height: 100%;
+  }
+  .font {
+    font-size: 25px;
+  }
+  .hero {
+    height: 870px;
+  }
+  .footer {
+    height: 380px;
+  }
+  .logo2 {
+    width: 65px;
+    height: 44px;
+  }
+  .sh__1 {
+    font-size: 10px;
+  }
+  .item1_2__circle {
+    width: 40px;
+    height: 40px;
+  }
+  .item1_3__circle {
+    width: 10px;
+    height: 10px;
+  }
+  .item1_3__shrift {
+    font-size: 10px;
+  }
+  .footer_item2__1 {
+    font-size: 19px;
+  }
+  .item2_2__shrift {
+    font-size: 10px;
+  }
+  .item3_1__img {
+    width: 54px;
+    height: 44px;
+  }
+  .item3_shrift {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .burger {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .burger__line {
+    background-color: white;
+    width: 100%;
+    height: 3px;
+  }
+  .video1 {
+    width: 300px;
+    height: 100%;
+  }
+  .font {
+    font-size: 20px;
+  }
+  .hero {
+    height: 750px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .logo2 {
+    width: 45px;
+    height: 30px;
+  }
+  .sh__1 {
+    font-size: 7px;
+  }
+  .item1_2__circle {
+    width: 30px;
+    height: 30px;
+  }
+  .item1_3__circle {
+    width: 8px;
+    height: 8px;
+  }
+  .item1_3__shrift {
+    font-size: 8px;
+  }
+  .item2__2and3 {
+    margin-top: 7px;
+  }
+  .footer_item2__1 {
+    font-size: 17px;
+  }
+  .item2_2__shrift {
+    font-size: 8px;
+  }
+  .item3_1__img {
+    width: 44px;
+    height: 34px;
+  }
+  .item3_shrift {
+    font-size: 8px;
+  }
+  .instagramm {
+    width: 20px;
+    height: 10px;
+  }
+  .telegramm {
+    width: 15px;
+    height: 14px;
+  }
+  .facebook {
+    width: 15px;
+    height: 14px;
+  }
+  .youtube {
+    width: 15px;
+    height: 13px;
+  }
+  .mail {
+    width: 22px;
+    height: 16px;
+  }
+  .tel {
+    width: 22px;
+    height: 22px;
+  }
+  .location {
+    width: 16px;
+    height: 26px;
+  }
+}
+@media only screen and (max-width: 533px) {
+  .video1 {
+    width: 270px;
+    height: 160px;
+  }
+  .item3_shrift {
+    font-size: 7px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .video1 {
+    width: 200px;
+    height: 60%;
+  }
+  .footer {
+    height: 600px;
+  }
+  .footer__container {
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .footer__item1 {
+    width: 70%;
+    align-items: center;
+    height: 30%;
+  }
+  .footer_item1__1 {
+    height: 75%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .item1_1__img {
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .logo2 {
+    width: 90%;
+    height: 90%;
+  }
+  .item1_1__shrift {
+    height: 30%;
+    margin: 0 auto;
+    width: 50%;
+  }
+  .sh__1 {
+    font-size: 11px;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 18px;
+    height: 38%;
+  }
+  .footer_item1__2 {
+    width: 100%;
+    height: 20%;
+  }
+  .footer_item1__3 {
+    display: none;
+  }
+  .footer__item2 {
+    width: 70%;
+    align-items: center;
+    height: 15%;
+  }
+  .footer_item2__1 {
+    display: none;
+  }
+  .item2__2and3 {
+    height: 100%;
+  }
+  .footer_item2__2 {
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+  .item2_2__shrift {
+    font-size: 14px;
+  }
+  .footer_item2__3 {
+    align-items: center;
+    width: 50%;
+  }
+  .footer__item3 {
+    width: 70%;
+    align-items: center;
+    height: 40%;
+  }
+  .footer_item3__1 {
+    justify-content: flex-end;
+    height: 30%;
+  }
+  .item3_1__img {
+    width: 27%;
+    height: 100%;
+  }
+  .item3_shrift {
+    font-size: 10px;
+    padding-top: 13px;
+  }
+  .mail {
+    width: 33px;
+    height: 24px;
+  }
+  .tel {
+    width: 33px;
+    height: 33px;
+  }
+  .location {
+    width: 24px;
+    height: 39px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .video1 {
+    width: 140px;
+    height: 50%;
+  }
+  .item1_navlinks__links {
+    font-size: 14px;
+  }
+  .footer {
+    height: 450px;
+  }
+  .sh__1 {
+    font-size: 8px;
+    padding-right: 0;
+  }
+  .item2_2__shrift {
+    font-size: 11px;
+  }
+  .item3_shrift {
+    padding-top: 9px;
+  }
+  .mail {
+    width: 26px;
+    height: 19px;
+  }
+  .tel {
+    width: 26px;
+    height: 26px;
+  }
+  .location {
+    width: 19px;
+    height: 31px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .video1 {
+    width: 120px;
+    height: 35%;
+  }
+  .item1_navlinks__links {
+    font-size: 12px;
+  }
+  .footer {
+    height: 380px;
+  }
+  .sh__1 {
+    font-size: 6px;
+    padding-right: 0;
+  }
+  .item2_2__shrift {
+    font-size: 9px;
+  }
+  .item3_shrift {
+    padding-top: 6px;
+    font-size: 9px;
+  }
+  .mail {
+    width: 21px;
+    height: 15px;
+  }
+  .tel {
+    width: 21px;
+    height: 21px;
+  }
+  .location {
+    width: 15px;
+    height: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
